@@ -12,3 +12,6 @@ print("Student Record \n,datFrame")
 
 dataFrame.insert(2,"Roll no", [101,102,103,104,105])
 print(dataFrame)
+
+dataFrame.assign(2,"Roll no", [101,102,103,104,105])
+print(dataFrame)AC
